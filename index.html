@@ -9,9 +9,16 @@
   <body>
     <header>
       <nav>
-        <a href="#">Contato</a>
-        <a href="#">Projetos</a>
-        <a href="#">Sobre</a>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+          <a href="#contato">Contato</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#sobre">Sobre</a>
+        </div>
       </nav>
     </header>
     
@@ -23,13 +30,14 @@
     </div>
     
     <div id="sobre">
+      <h2 class="titulos-sessao">Sobre mim</h2>
       <p>Desde muito novo, a tecnologia me fascinava. A sede por entender como as coisas funcionam me trouxe para a área do desenvolvimento. A sensação de liberdade ao criar algo do zero, exatamente da forma que precisamos, fez com que eu me apaixonasse pela área. Sou um aspirante a desenvolvedor que está sempre em busca de aprendizado.</p>
     </div>
     
     <div id="projetos">
       <h2 class="titulos-sessao">Projetos</h2>
       <div class="projetos-box">
-        <img class="projetos-box-foto" src="images/"/>
+        <img class="projetos-box-foto" src="images/project-webscraping.jpg"/>
         <h3>Web scraping</h3>
         <p>Desenvolvi um projeto de web scraping focado em sites de imóveis, coletando automaticamente informações como preço, localização e disponibilidade. O sistema organiza esses dados em relatórios detalhados, facilitando análises imobiliárias e tornando a pesquisa de ofertas mais eficiente.
 
@@ -37,19 +45,20 @@
       </div>
  
       <div class="projetos-box">
-         <img class="projetos-box-foto" src=""/>
-         <h3>Módulo de rastreio - App</h3>
-         <p></p>
+         <img class="projetos-box-foto" src="images/project-rastreio.jpg"/>
+         <h3>Módulo de rastreio - App</h3> 
+         <p>Desenvolvi um módulo de rastreamento em React Native que permite monitorar a interação do usuário com a aplicação de forma intuitiva e eficiente. Este módulo registra cada local por onde o usuário passa e as ações que ele realiza, enviando essas informações diretamente para o Firebase Analytics.</p>
        </div>
        
       <div class="projetos-box">
-         <img class="projetos-box-foto" src=""/>
+         <img class="projetos-box-foto" src="images/project-apisNestJs.jpg"/>
          <h3>Api NestJs</h3>
-         <p></p>
+         <p>APIs que desenvolvi utilizando o framework NestJS. Com uma arquitetura modular e escalável, o NestJS permite a criação de aplicações robustas e de alto desempenho, facilitando a integração com diferentes serviços e bancos de dados.</p>
        </div>
     </div>
     
     <div id="contato">
+      <h2 class="titulos-sessao">Contatos</h2>
       <form action="">
         <input type="email" placeholder="Digite seu e-mail"/>
         <textarea rows="8" cols="40" placeholder="Digite a sua mensagem"></textarea>

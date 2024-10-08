@@ -157,7 +157,7 @@ nav a:hover {
    margin :0 auto ;
 }
 
-#contato input[type="email"],
+#contato input[type="email"], #contato input[type="text"],
 #contato textarea {
    width :100% ;
    padding :15px ;
